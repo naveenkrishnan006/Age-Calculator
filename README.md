@@ -1,4 +1,10 @@
-# Age Calculator (MERN Stack)
+# Age Calculator 🚀 MERN Stack
+
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com)
+[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org)
+[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
+
 
 A full-stack Age Calculator single-page application built with the MERN stack featuring a dark cosmic/space theme.
 
@@ -62,19 +68,16 @@ cd ../client && npm install
 
 ### 2. Configure MongoDB Connection
 
-Create a `.env` file inside the `/server` folder with your MongoDB URI:
+1. Copy `server/.env.example` to `server/.env`
+2. Get free MongoDB Atlas account at [mongodb.com/atlas](https://www.mongodb.com/cloud/atlas)
+3. Create cluster, get connection string, update `MONGO_URI` in `.env`
+4. Example:
 
 ```env
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/agecalculator
+MONGO_URI=mongodb+srv://yourusername:yourpassword@cluster0.xxxxx.mongodb.net/agecalculator?retryWrites=true&w=majority&appName=AgeCalculator
 ```
 
-Or use MongoDB Atlas:
-
-```env
-PORT=5000
-MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/agecalculator?retryWrites=true&w=majority
-```
 
 ### 3. Run the Application
 
