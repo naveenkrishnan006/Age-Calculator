@@ -9,11 +9,16 @@
     "client": "cd client && npm run dev",
     "install-all": "npm install && cd server && npm install && cd ../client && npm install"
   },
-  "keywords": ["mern", "age-calculator", "react", "express", "mongodb"],
+  "keywords": [
+    "mern",
+    "age-calculator",
+    "react",
+    "express",
+    "mongodb"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^8.2.2"
   }
 }
-
